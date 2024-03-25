@@ -60,7 +60,7 @@ export default function Pixabay() {
             <Container  >
                 <Row >
                     <Col md={4} xl={4} sm={12}>
-                        <button onClick={next}>{'\u21E7'} next</button>
+                        <button onClick={prev}>{'\uD83E\uDC1C'} prev </button>
                     </Col>
                     <Col md={4} xl={4} sm={12}> 
                       <Dropdown>
@@ -79,7 +79,7 @@ export default function Pixabay() {
                     </Dropdown>
                     </Col>
                     <Col md={4} xl={4} sm={12}>
-                        <button onClick={prev}>{'\u21E9'} prev </button>
+                       <button onClick={next}>{'\uD83E\uDC1E'} next</button>
                     </Col>
                 </Row>
             </Container>
